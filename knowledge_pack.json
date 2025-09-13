@@ -1,0 +1,44 @@
+[
+  {
+    "id": "SEC-01",
+    "keywords": ["soc 2", "soc2", "compliance", "security", "certification"],
+    "question": "Do you have SOC 2?",
+    "answer": "Yes, we are SOC 2 Type II compliant. This ensures that your data is handled with the highest standards of security and confidentiality.",
+    "source": "https://ourcompany.com/security"
+  },
+  {
+    "id": "SEC-02",
+    "keywords": ["residency", "data", "india", "mumbai", "data center"],
+    "question": "Do you offer data residency in India?",
+    "answer": "Yes, we provide an option for data residency in our Mumbai (India) data center for all Enterprise plan customers.",
+    "source": "https://ourcompany.com/trust-center#residency"
+  },
+  {
+    "id": "INT-01",
+    "keywords": ["salesforce", "integration", "crm", "sync"],
+    "question": "Do you integrate with Salesforce?",
+    "answer": "Yes, we have a native Salesforce integration that allows for two-way data sync.",
+    "source": "https://ourcompany.com/docs/salesforce"
+  },
+  {
+    "id": "INT-02",
+    "keywords": ["webhooks", "custom", "api", "enterprise"],
+    "question": "What about custom webhooks?",
+    "answer": "Absolutely. Our Enterprise plan includes custom webhooks to connect to any external service with an API.",
+    "source": "https://ourcompany.com/pricing"
+  },
+  {
+    "id": "PRIC-01",
+    "keywords": ["pricing", "cost", "price", "plan", "subscription"],
+    "question": "What are your pricing plans?",
+    "answer": "We offer three tiers: Starter ($29/month), Professional ($99/month), and Enterprise (custom pricing). All plans include our core features with varying limits.",
+    "source": "https://ourcompany.com/pricing"
+  },
+  {
+    "id": "SUPP-01",
+    "keywords": ["support", "help", "documentation", "tutorial"],
+    "question": "What kind of support do you provide?",
+    "answer": "We offer 24/7 email support for all plans, live chat for Professional and Enterprise, and dedicated account managers for Enterprise customers.",
+    "source": "https://ourcompany.com/support"
+  }
+]

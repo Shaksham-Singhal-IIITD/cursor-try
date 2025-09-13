@@ -1,0 +1,51 @@
+[
+  {
+    "rule_name": "High Intent on Pricing/Security",
+    "trigger": {
+      "pages_visited": ["/pricing", "/security"],
+      "questions_answered": 2
+    },
+    "action": {
+      "type": "NUDGE",
+      "message": "Looks like you're doing some serious research. Want a quick quote based on your needs?",
+      "follow_up_action": "INITIATE_LEAD_CAPTURE"
+    }
+  },
+  {
+    "rule_name": "Integration Power User",
+    "trigger": {
+      "pages_visited": ["/integrations"],
+      "questions_answered": 2,
+      "keywords_mentioned": ["integration", "api", "webhook", "salesforce"]
+    },
+    "action": {
+      "type": "NUDGE",
+      "message": "It looks like you're planning a custom setup. Would you like to schedule a 15-minute technical call with one of our integration specialists?",
+      "follow_up_action": "INITIATE_LEAD_CAPTURE"
+    }
+  },
+  {
+    "rule_name": "Security-Focused Visitor",
+    "trigger": {
+      "keywords_mentioned": ["soc", "compliance", "security", "data residency"],
+      "questions_answered": 1
+    },
+    "action": {
+      "type": "NUDGE",
+      "message": "Security is clearly important to you. Would you like to see our detailed security documentation and compliance certifications?",
+      "follow_up_action": "SHOW_SECURITY_INFO"
+    }
+  },
+  {
+    "rule_name": "Pricing Page Visitor",
+    "trigger": {
+      "pages_visited": ["/pricing"],
+      "scroll_depth": 70
+    },
+    "action": {
+      "type": "NUDGE",
+      "message": "I see you're interested in our pricing. Do you have specific requirements I can help you find the right plan for?",
+      "follow_up_action": "HELP_WITH_PRICING"
+    }
+  }
+]
