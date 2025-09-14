@@ -1,0 +1,35 @@
+[
+  {
+    "field": "name",
+    "prompt": "Great! What's your full name?",
+    "required": true
+  },
+  {
+    "field": "work_email",
+    "prompt": "And your work email address?",
+    "required": true,
+    "validation": "email"
+  },
+  {
+    "field": "company_name",
+    "prompt": "What company do you work for?",
+    "required": true
+  },
+  {
+    "field": "company_size",
+    "prompt": "How many employees are at your company?",
+    "options": ["1-10", "11-50", "51-200", "200+"],
+    "required": true
+  },
+  {
+    "field": "use_case",
+    "prompt": "What's your primary use case for our platform?",
+    "required": false
+  },
+  {
+    "field": "timeline",
+    "prompt": "When are you looking to implement this?",
+    "options": ["ASAP", "Within 1 month", "1-3 months", "3+ months"],
+    "required": false
+  }
+]
